@@ -1,4 +1,15 @@
 import streamlit as st
+st.set_page_config(
+    page_title="4M",
+    page_icon="chart_with_upwards_trend",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': 'https://www.extremelycoolapp.com/help',
+        'Report a bug': "https://www.extremelycoolapp.com/bug",
+        'About': "# > Creator: Gordon D. Pisciotta  ·  4M  ·  [modern.millennial.market.mapping]",
+    }
+)
 import pandas as pd
 import numpy as np
 import datetime
