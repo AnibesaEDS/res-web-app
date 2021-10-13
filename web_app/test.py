@@ -19,3 +19,8 @@
 # print(bingo[6]) # panel_2_output_efficiency_max_avg
 # print(bingo[7]) # panel_3_output_efficiency_max_avg
 # print(bingo[8]) # panel_4_output_efficiency_max_avg
+
+from pathlib import Path
+y = '2021-09-15'
+x = Path(__file__).parents[1] / ('processed_data/' + str(y))
+print(x)

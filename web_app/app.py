@@ -1,19 +1,9 @@
 import streamlit as st
-st.set_page_config(
-    page_title="4M",
-    page_icon="chart_with_upwards_trend",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    menu_items={
-        'Get Help': 'https://www.extremelycoolapp.com/help',
-        'Report a bug': "https://www.extremelycoolapp.com/bug",
-        'About': "# > Creator: Gordon D. Pisciotta  ·  4M  ·  [modern.millennial.market.mapping]",
-    }
-)
 import pandas as pd
 import numpy as np
 import datetime
 from PIL import Image
+from pathlib import Path
 
 st.title('RES Data Visualization Tool')
 
@@ -34,14 +24,15 @@ options = st.multiselect('Select what plots to show',
 ##
 #
 for x in options:
-    image = Image.open(
-        '../processed_data/' + str(date) + '/' + str(x) + '.png')
+    file_path = Path(__file__).parents[1] / \
+        ('processed_data/' + str(date) + '/' + str(x))
+    image = Image.open(str(file_path) + '.png')
     st.image(image, caption=str(x), width=None)
 
 
 ##
 #
-f = open("../processed_data/"+ str(date) + "/daily_summmary.txt", "r")
+f = open("../processed_data/" + str(date) + "/daily_summmary.txt", "r")
 daily_summary_array = f.read().split('\n')
 #
 st.write('\n----------  Daily Summary   ----------\n')
