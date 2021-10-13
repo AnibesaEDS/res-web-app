@@ -32,7 +32,10 @@ for x in options:
 
 ##
 #
-f = open("../processed_data/" + str(date) + "/daily_summmary.txt", "r")
+file_path = Path(__file__).parents[1] / \
+    ('processed_data/' + str(date) + '/daily_summmary.txt')
+
+f = open(str(file_path), "r")
 daily_summary_array = f.read().split('\n')
 #
 st.write('\n----------  Daily Summary   ----------\n')
