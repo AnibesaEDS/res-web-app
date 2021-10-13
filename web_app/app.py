@@ -30,26 +30,26 @@ for x in options:
     st.image(image, caption=str(x), width=None)
 
 
-##
-#
-file_path = Path(__file__).parents[1] / \
-    ('processed_data/' + str(date) + '/daily_summmary.txt')
+# ##
+# #
+# file_path = Path(__file__).parents[1] / \
+#     ('processed_data/' + str(date) + '/daily_summmary.txt')
 
-f = open(str(file_path), "r")
-daily_summary_array = f.read().split('\n')
-#
-st.write('\n----------  Daily Summary   ----------\n')
-#
-st.write(str(daily_summary_array[0]))
-st.write(str(daily_summary_array[1]))
-st.write(str(daily_summary_array[2]))
-st.write(str(daily_summary_array[3]))
-#
-st.write('\n')
-#
-st.write(str(daily_summary_array[5]))
-st.write(str(daily_summary_array[6]))
-st.write(str(daily_summary_array[7]))
-st.write(str(daily_summary_array[8]))
-#
-st.write('\n----------  Daily Summary   ----------\n')
+# f = open(str(file_path), "r")
+# daily_summary_array = f.read().split('\n')
+# #
+# st.write('\n----------  Daily Summary   ----------\n')
+# #
+# st.write(str(daily_summary_array[0]))
+# st.write(str(daily_summary_array[1]))
+# st.write(str(daily_summary_array[2]))
+# st.write(str(daily_summary_array[3]))
+# #
+# st.write('\n')
+# #
+# st.write(str(daily_summary_array[5]))
+# st.write(str(daily_summary_array[6]))
+# st.write(str(daily_summary_array[7]))
+# st.write(str(daily_summary_array[8]))
+# #
+# st.write('\n----------  Daily Summary   ----------\n')
