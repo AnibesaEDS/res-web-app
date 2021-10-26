@@ -1,0 +1,9 @@
+panel_1_daily_output_watt_hours (Wh) = 92.69076333333334
+panel_2_daily_output_watt_hours (Wh) = 114.09424250000001
+panel_3_daily_output_watt_hours (Wh) = 98.37158833333334
+panel_4_daily_output_watt_hours (Wh) = 228.95346583333333
+
+panel_1_output_efficiency_max_avg (%) = 2.8073913987836723
+panel_2_output_efficiency_max_avg (%) = 2.0760533905329868
+panel_3_output_efficiency_max_avg (%) = 1.8232967524389652
+panel_4_output_efficiency_max_avg (%) = 5.37206532494445
