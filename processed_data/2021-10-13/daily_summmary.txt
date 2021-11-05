@@ -6,11 +6,11 @@ panel_4_daily_output_watt_hours (Wh) = 175.05419916666665
 panel_normalize_wattage (Watts) = 100
 panel_1_normalize_factor (ratio) = 1.0
 panel_2_normalize_factor (ratio) = 1.6666666666666667
-panel_3_normalize_factor (ratio) = 1.6666666666666667
+panel_3_normalize_factor (ratio) = 1.1111111111111112
 panel_4_normalize_factor (ratio) = 0.8333333333333334
 panel_1_daily_output_watt_hours_normalized (Wh) = 92.58751083333333
 panel_2_daily_output_watt_hours_normalized (Wh) = 144.75954305555558
-panel_3_daily_output_watt_hours_normalized (Wh) = 185.29915694444446
+panel_3_daily_output_watt_hours_normalized (Wh) = 123.53277129629629
 panel_4_daily_output_watt_hours_normalized (Wh) = 145.87849930555555
 
 panel_1_output_efficiency_max_avg (%) = 2.197497798834819
