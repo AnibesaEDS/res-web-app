@@ -1,3 +1,5 @@
+Number of data points = 2873
+
 panel_1_daily_output_watt_hours (Wh) = 296.0304725
 panel_2_daily_output_watt_hours (Wh) = 167.8798175
 panel_3_daily_output_watt_hours (Wh) = 175.4460475

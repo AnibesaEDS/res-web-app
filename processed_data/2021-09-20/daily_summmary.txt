@@ -1,3 +1,5 @@
+Number of data points = 2849
+
 panel_1_daily_output_watt_hours (Wh) = 362.0028975
 panel_2_daily_output_watt_hours (Wh) = 208.71711333333334
 panel_3_daily_output_watt_hours (Wh) = 172.30234416666667
@@ -13,7 +15,7 @@ panel_2_daily_output_watt_hours_normalized (Wh) = 347.86185555555556
 panel_3_daily_output_watt_hours_normalized (Wh) = 191.44704907407407
 panel_4_daily_output_watt_hours_normalized (Wh) = 348.3619909722222
 
-panel_1_output_efficiency_max_avg (%) = 14.037231879051413
-panel_2_output_efficiency_max_avg (%) = 4.166722289630401
-panel_3_output_efficiency_max_avg (%) = 3.3600626405952605
-panel_4_output_efficiency_max_avg (%) = 12.224604014138713
+panel_1_output_efficiency_max_avg (%) = nan
+panel_2_output_efficiency_max_avg (%) = nan
+panel_3_output_efficiency_max_avg (%) = nan
+panel_4_output_efficiency_max_avg (%) = nan
