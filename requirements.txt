@@ -60,7 +60,7 @@ ipykernel==6.4.1
     #   ipywidgets
     #   notebook
     #   pydeck
-ipython==7.28.0
+ipython==7.31.1
     # via
     #   ipykernel
     #   ipywidgets
