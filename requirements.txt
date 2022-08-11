@@ -201,7 +201,7 @@ six==1.16.0
     #   validators
 smmap==4.0.0
     # via gitdb
-streamlit==1.0.0
+streamlit==1.11.1
     # via -r requirements.in
 terminado==0.12.1
     # via notebook
